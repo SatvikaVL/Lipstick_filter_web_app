@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+h5{
+    letter-spacing: 5;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-warning:hover{
+    background-color: rgb(138, 4, 247);
+}
+canvas{
+    animation-name: boxShadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes boxShadow{
+    from{box-shadow: 1px 1px 38px aqua}
+    to {box-shadow: 1px 1px 38px blue}
+}
